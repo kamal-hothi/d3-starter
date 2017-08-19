@@ -1,1 +1,29 @@
 // Import styles here
+
+#graph{
+    height: 300px;
+    margin: 0px auto;
+  }
+  svg{
+    overflow: visible;
+  }
+  .blue{
+    fill: blue;
+  }
+  .green{
+    fill: green;
+  }
+  .tooltip {
+    top: -1000px;
+    position: fixed;
+    padding: 10px;
+    background: rgba(255, 255, 255, .90);
+    border: 1px solid lightgray;
+    pointer-events: none;
+  }
+  .tooltip-hidden{
+    opacity: 0;
+    transition: all .3s;
+    transition-delay: .1s;
+  }
+  
